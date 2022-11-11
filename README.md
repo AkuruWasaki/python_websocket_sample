@@ -13,3 +13,12 @@ pip 22.3.1 from /Users/akuruwasaki/Library/Python/3.8/lib/python/site-packages/p
 $ pip3 install websockets
 ```
 
+### 実行
+```bash
+### サーバー側を起動
+$ python3 server.py
+
+### サーバー側起動の状態にてクライアント側を起動
+$ python3 client.py
+Hello Akuru Wasaki!
+```
